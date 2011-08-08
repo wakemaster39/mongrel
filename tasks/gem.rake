@@ -12,7 +12,7 @@ HOE = Hoe.spec 'mongrel' do
   extra_rdoc_files << 'LICENSE'
 
   extra_deps << ['gem_plugin', '~> 0.2.3']
-  extra_deps << ['daemons', '~> 1.0.10']
+  extra_deps << ['daemons', '~> 1.1.3']
 
   extra_dev_deps << ['rake-compiler', "~> 0.7.0"]
 
